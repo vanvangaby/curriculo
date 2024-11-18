@@ -1,0 +1,29 @@
+body{
+    height: 100vh;
+    background: linear-gradient(black,white,blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ img{
+    height: 200px;
+    border-radius: 50%;
+ }
+ .central{
+    width: 500px;
+    background: rgb(235, 235, 241);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 3px 3px 15px black;
+ }
+
+ .central .titulo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+ }
+
+ .central .titulo span{
+    font-size: 35px;
+ }
